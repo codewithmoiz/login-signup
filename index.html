@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div class="form-div">
+            <h1>Create an Account</h1>
+            <marquee behavior="smooth" direction="right" scrollamount="10" style="color: #fff;">Open Your Account Today. Open Your Account Today. Open Your Account Today.</marquee>
+            <form action="./login.html">
+                <label for="name">Name: <input type="text" id="name" required></label>
+                <label for="email">Email: <input type="email" id="email" required></label>
+                <label for="password">Password: <input type="text" id="password" required></label>
+                <input onclick="saveToLocalStorage()" type="submit" value="Create">
+                <marquee behavior="smooth" direction="left" scrollamount="10" style="color: #fff;">Open Your Account Today. Open Your Account Today. Open Your Account Today.</marquee>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

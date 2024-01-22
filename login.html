@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div class="form-div">
+            <h1>Login</h1>
+            <form>
+                <label for="login-email">Email: <input type="email" id="login-email" required></label>
+                <label for="login-password">Password: <input type="text" id="login-password" required></label>
+                <input onclick="matchingDetails()" type="submit" value="Login">
+                <!-- <a href="" onclick="matchingDetails()">Login</a> -->
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
